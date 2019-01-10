@@ -3,7 +3,7 @@
 namespace app\controllers;
 
 
-class ProfileController extends App
+class ProfileController extends AppBase
 {
     public function index_action()
     {

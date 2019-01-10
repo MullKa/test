@@ -58,7 +58,6 @@ class Router
                 throw new RouterException(self::MESSAGE_404 . "<br>act", 200);
             $cObj->$action();
             $cObj->getView();
-            debug(self::$route);
         }catch (RouterException $re){
             self::requireErrorPage($re->getMessage(), $re->getCode());
             exit();

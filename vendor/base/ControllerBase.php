@@ -3,7 +3,7 @@
 namespace vendor\base;
 
 
-abstract class Controller
+abstract class ControllerBase
 {
 
     public $view;
